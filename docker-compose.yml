@@ -1,0 +1,6 @@
+services:
+  uat-golden-20260509-0305:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
